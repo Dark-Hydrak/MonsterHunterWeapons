@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace MonsterHunterWeapons.Ore
 {
-	public class MachaliteOre : ModTile
+	public class Machalite : ModTile
 	{
 		public override void SetDefaults()
 		{
@@ -19,7 +19,7 @@ namespace MonsterHunterWeapons.Ore
 			Main.tileBlockLight[Type] = true;
 
 			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("MachaliteOre");
+			name.SetDefault("Machalite");
 			AddMapEntry(new Color(152, 171, 198), name);
 
 			dustType = 84;

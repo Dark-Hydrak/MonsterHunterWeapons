@@ -23,7 +23,7 @@ namespace MonsterHunterWeapons.Ore.Placeable
             item.rare = ItemRarityID.Blue;
             item.autoReuse = true;
             item.useTurn = true;
-            item.createTile = mod.TileType("MachaliteOre"); //Tile that will be created. Currently set to stone. Needs to be set to Modded ore.
+            item.createTile = mod.TileType("Machalite"); //Tile that will be created. Currently set to stone. Needs to be set to Modded ore.
             item.maxStack = 999;
             item.stack = 1;
             item.consumable = true;

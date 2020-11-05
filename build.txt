@@ -1,0 +1,3 @@
+displayName = Monster Hunter Weapons
+author = Dark Hydrak
+version = 0.1
